@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+#header{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+
+#headher .logo{
+    width: 135px;
+    height: 80px;
+    margin-left: 230px;
+    background-color: white;
+}
+
+.gotrip{
+    width: 120px;
+    height: 60px;
+    margin-left: 160px;
+    margin-top: 10px;
+}
+
+.navbar{
+    margin-left: 700px;
+    margin-top: -60px;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: rgb(255, 2, 2);
+}
+
+.line{
+    width: 100%;
+    height: 5px;
+    margin-top: 20px;
+    box-shadow: 5px;
+    background-color: gray;
+}
+
+#favourite-places .title span{
+    display: flex;
+    color: coral;
+    padding: 30px;
+    justify-content: center;
+    font-size: 20px;
+}
+
+#favourite-places .title h1{
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+    font-size: 60px;
+}
+
+#favourite-places .cards{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    margin-left: -35px;
+    
+}
+
+#favourite-places .cards .card .img1{
+    width: 300px;
+    height: 250px;
+    margin-left: 30px;
+}
+
+#favourite-places .cards .card2 .img2{
+    width: 300px;
+    height: 250px;
+    margin-left: 30px;
+}
+
+#favourite-places .cards .card3 .img3{
+    width: 300px;
+    height: 250px;
+    margin-left: 30px;
+}
+
+#favourite-places .cards .card .icon i{
+    color: gold;
+}
+
+#favourite-places .cards .card .icon{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#favourite-places .cards .card h3{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#favourite-places .cards .card .price .cost{
+    color: chartreuse;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#favourite-places .cards .card .price{
+    margin-left: 3px;
+    margin-top: 20px;
+}
+
+#favourite-places .cards .card .information .time{
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+#favourite-places .cards .card .information .location{
+   display: flex;
+   justify-content: center;
+   margin-left: 60px;
+   margin-top: -18px;
+}
+
+#favourite-places .cards .card2 .icon2 i{
+    color: gold;
+    
+}
+
+#favourite-places .cards .card2 .icon2{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#favourite-places .cards .card2 h3{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#favourite-places .cards .card2 .price2 .amount{
+    color: chartreuse;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#favourite-places .cards .card2 .price2{
+    margin-left: 3px;
+    margin-top: 20px;
+}
+
+#favourite-places .cards .card2 .information2 .time2 i{
+    margin-left: 60px;
+    margin-top: 40px;
+} 
+
+#favourite-places .cards .card2 .information2 .location2 i{
+    margin-left: 40px;
+    margin-top: 3px;
+} 
+
+#favourite-places .cards .card2 .information2 .location2{
+    display: flex;
+   justify-content: center;
+   margin-left: 30px;
+   margin-top: -20px;
+}
+
+#favourite-places .cards .card3 .icon3 i{
+    color: gold;
+    
+}
+
+#favourite-places .cards .card3 .icon3{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#favourite-places .cards .card3 h3{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#favourite-places .cards .card3 .price3 .money{
+    color: chartreuse;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#favourite-places .cards .card3 .price3{
+    margin-left: 3px;
+    margin-top: 20px;
+}
+
+#favourite-places .cards .card3 .information3 .time3 i{
+    margin-left: 60px;
+    margin-top: 40px;
+} 
+
+#favourite-places .cards .card3 .information3 .location3 i{
+    margin-left: 40px;
+    margin-top: 3px;
+} 
+
+#favourite-places .cards .card3 .information3 .location3{
+    display: flex;
+   justify-content: center;
+   margin-left: 40px;
+   margin-top: -20px;
+}
